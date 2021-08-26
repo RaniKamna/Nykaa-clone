@@ -143,7 +143,7 @@ function showProducts() {
 
         let btn = document.createElement('button');
         btn.setAttribute("id","addcartbtn")
-        btn.innerText = "Add to Cart";
+        btn.innerText = "♡Add to Bag";
         btn.onclick = function () {
             addTocart(product);
         }
