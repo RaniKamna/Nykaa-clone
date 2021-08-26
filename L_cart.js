@@ -24,10 +24,11 @@ cart_data.forEach(function(product) {
     image.src = product.image;
 
     let img_div = document.createElement('div');
+    img_div.setAttribute("id","img_div");
     img_div.append(image);
 
     let p_div = document.createElement('div');
-    img_div.append(p_name,p_price,p_rating);
+    p_div.append(p_name,p_price);
 
     div.append(img_div,p_div);
     cart_item.append(div);
