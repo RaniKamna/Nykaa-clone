@@ -44,13 +44,13 @@ h1 {
     padding: 10px;
     position:absolute;
     bottom:0;
-    visibility: hidden;
+    display:hidden;
     opacity:0;
     
 }
 
 #addcartbtn:hover{
-    visibility: visible;
+   display:block;
     opacity:1;
 }
 
