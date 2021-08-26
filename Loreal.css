@@ -49,7 +49,7 @@ h1 {
     
 }
 
-#addcartbtn{
+#addcartbtn:hover{
     visibility: visible;
     opacity:1;
 }
