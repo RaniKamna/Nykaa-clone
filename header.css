@@ -120,7 +120,6 @@ ul {
 }
 
 .tpn1 {
-    padding-top: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,7 +133,7 @@ ul {
 
 #headrmenu {
     height: 62px;
-    line-height: 62px;
+    line-height: 39px;
 }
 
 .hdrmn {
@@ -297,7 +296,7 @@ button.acnbtn {
     margin-left: 6%;
 }
 .dropdwnadvice{
-    margin-top: 0.2%;
+    margin-top: 1.1%;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
