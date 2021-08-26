@@ -14,13 +14,16 @@ cart_data.forEach(function(product) {
     let p_name = document.createElement('p');
     p_name.innerText = product.name
 
+    let p_rating = document.createElement('p');
+    p_rating.innerText = product.rating
+
     let p_price = document.createElement('p');
     p_price.innerText ="₹"+product.price;
 
     let image = document.createElement('img');
-    image.src = product.Image;
+    image.src = product.image;
 
-    div.append(image,p_name,p_price);
+    div.append(image,p_name,p_price,p_rating);
     cart_item.append(div);
 
     total = total + Number(product.price);
@@ -29,24 +32,32 @@ cart_data.forEach(function(product) {
 
 let total_div = document.getElementById('total_d');
 let total_price = document.createElement('p');
-total_price.innerText = `Total Price- ₹${total}`
+total_price.innerText = `Bag Total- ₹${total}`
 total_div.append(total_price)
 
 // let p_code = document.getElementById("code").value;
 
 let discount = document.createElement('p');
-discount.innerText = `Discount- ₹${0}`
-let d_price =document.createElement('p');
-d_price.innerText = `Discounted Price- ₹${total}`
+discount.innerText = `Bag Discount- ₹${0}`
 
-total_div.append(discount,d_price)
+let d_price =document.createElement('p');
+d_price.innerText = `Sub Total- ₹${total}`
+
+let s_price =document.createElement('p');
+s_price.innerText = `Shipping Charge- FREE`
+
+let g_total =document.createElement('p');
+g_total.innerText = `Grand Total- ₹${total}`
+
+total_div.append(discount,d_price,s_price,g_total)
 
 function discount_30() {
     let p_code = document.getElementById("code").value;
 
     if (p_code === "masai30") {
-        discount.innerText = `Discount- ₹${total* 0.3}`
-        d_price.innerText = `Discounted Price- ₹${0.7 * total}`
+        discount.innerText = `Bag Discount- ₹${total* 0.3}`
+        d_price.innerText = `Sub Total- ₹${0.7 * total}`
+        g_total.innerText = `Grand Total- ₹${0.7 * total}`
     }
     
     
