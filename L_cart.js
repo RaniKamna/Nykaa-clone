@@ -23,7 +23,13 @@ cart_data.forEach(function(product) {
     let image = document.createElement('img');
     image.src = product.image;
 
-    div.append(image,p_name,p_price,p_rating);
+    let img_div = document.createElement('div');
+    img_div.append(image);
+
+    let p_div = document.createElement('div');
+    img_div.append(p_name,p_price,p_rating);
+
+    div.append(img_div,p_div);
     cart_item.append(div);
 
     total = total + Number(product.price);
