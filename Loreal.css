@@ -44,6 +44,13 @@ h1 {
     padding: 10px;
     position:absolute;
     bottom:0;
+    display:hidden;
+    opacity:0;
     
+}
+
+#addcartbtn{
+    display:block;
+    opacity:1;
 }
 
