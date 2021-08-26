@@ -4,9 +4,6 @@
     grid-gap: 5%;
 }
 
-/* #cart_div{
-    border: 1px solid red;
-} */
 
 #cart_item{
     display: grid;
@@ -31,9 +28,7 @@ img{
     margin-bottom: 40px;
 }
 
-/* #price_detail{
-    border: 1px solid red;
-} */
+
 #price_head{
     text-align: center;
     font-size: 40px;
