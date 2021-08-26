@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorial Cart</title>
-    <link rel="stylesheet" href="L_cart.css">
+    
 
 </head>
 <body>
-    <h1>Cart Page</h1>
-    <h1 id="total"></h1>
+    <div id="main">
+        <div id="cart_div">
+            <div id="cart_head">Shopping Bag</div>
+            <div id="cart_item">
 
-    <button id="payment" onclick="makePyment()">Make Payment</button>
+            </div>
 
-    <div id="data">
-
-    </div>
-    
-    <script src="L_cart.js"></script>
+        </div>
+        <div id="price_detail">
+            <div id="price_head">Price Detail</div>
+            <input type="text"  id="code" placeholder="Enter Your Promo Code here">
+            <button style="margin-left: 170px; padding: 10px 20px;" onclick="discount_30()">Enter</button>
+            <div id="total_d">
+                
+            </div>
+            <button id="checkOut"><a style="font-size: 25px;" href="success.html">Check Out</a></button>
+        </div>
 </body>
 </html>

@@ -120,7 +120,7 @@ localStorage.setItem("Loreal_store", JSON.stringify(Loreal_products))
 let Loreal_store = JSON.parse(localStorage.getItem("Loreal_store"));
 console.log(Loreal_store);
 let data_div = document.querySelector("#data")
-console.log(data_div);
+let count = 1;
 
 function showProducts() {
 
@@ -136,6 +136,7 @@ function showProducts() {
 
         let p_price = document.createElement('p');
         p_price.innerText = "₹"+ product.price
+        p_price.style.margin = -5 + "px"
 
         let image = document.createElement('img');
         image.src = product.image;
@@ -153,6 +154,7 @@ function showProducts() {
         data_div.append(div)
         console.log(data_div);
 
+        count++;
 
     });
 }
