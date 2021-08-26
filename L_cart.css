@@ -83,20 +83,19 @@ img {
 #total_d {
     /* text-align: center; */
     border: 1px solid blue;
-    border-radius: 20px;
-    padding: 25px;
-    height: 250px;
-    font-size: 25px;
+  
+  
 }
 
 #code {
-    width: 85%;
-    font-size: 25px;
-    padding: 25px;
-    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+  
+    
+    
 }
 
 #checkOut {
     margin-left: 120px;
-    padding: 10px 30px;
+    
 }
