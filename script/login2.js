@@ -32,7 +32,7 @@ function login(){
         else if(nnme === '' || email === ''){
             alert('Fill required data')
         }else{
-            window.location.href = 'home.html'
+            window.location.href = 'index.html'
         }
     }
 }
