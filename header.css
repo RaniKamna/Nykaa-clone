@@ -347,3 +347,48 @@ button.acnbtn {
     display: inline-block;
     margin-bottom: 30px;
 }
+
+.acntsec:hover .acountdropdwnbox {
+    display: block;
+}
+
+.acountdropdwnbox {
+    display: none;
+    position: absolute;
+    margin-top: 1.2%;
+    right: 0;
+    margin-right: 5%;
+}
+
+.acntlist {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    min-width: 160px;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 12;
+    box-shadow: -1px -1px 10px 0 #a8a8a8;
+    width: 225px;
+}
+
+.listitem {
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    align-items: center;
+}
+
+.orderlogo {
+    padding-left: 10px;
+}
+
+.acntlink {
+    display: block;
+    padding: 0 20px 0 5px;
+    text-decoration: none;
+    height: 44px;
+    line-height: 44px;
+    white-space: nowrap;
+    color: #001325;
+    opacity: 92%;
+}
