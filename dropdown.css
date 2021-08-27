@@ -1,9 +1,10 @@
 
 /* drop down css start*/
 .drop-down-menu{
-    width: 300px;
+    width: 100%;
     border-radius: 18px ;
     overflow: hidden;
+    
    
 }
 .drop-down-item{
@@ -63,91 +64,3 @@
 /* drop down css end*/
 
 
-
-/* drop down html*/
-
-/* 
-
-
-
-<!--drop down hide and show start------------------------------------------------------------------------>
-<div class="drop-down-menu">
-    <li class="drop-down-item" id="item1">
-        <a href="#item1" class="drop-down-btn">CATEGORY</a>
-        <div class="drop-down-submenu">
-            <a href="#">Hair</a>
-            <a href="#">Skin</a>
-            <a href="#">Men's Store</a>
-            <a href="#">Make up</a>
-            <a href="#">Personal Care</a>
-        </div>
-    </li>
-    <li class="drop-down-item" id="item2">
-        <a href="#item2" class="drop-down-btn">Price</a>
-        <div class="drop-down-submenu">
-            <a href="#">Rs. 0 - Rs. 499</a>
-            <a href="#">Rs. 500 - Rs.999</a>
-            <a href="#">Rs.1000 - Rs. 4999</a>
-            <a href="#">Rs. 5000 - Rs.10000+</a>
-        </div>
-    </li>
-    <li class="drop-down-item" id="item3">
-        <a href="#item3" class="drop-down-btn">Discount</a>
-        <div class="drop-down-submenu">
-            <a href="#">60% and above</a>
-            <a href="#">50% and above</a>
-            <a href="#">40% and above</a>
-            <a href="#">30% and above</a>
-        </div>
-    </li>
-    <li class="drop-down-item" id="item5">
-        <a href="#item5" class="drop-down-btn">AVG Customer Rating</a>
-        <div class="drop-down-submenu">
-            <a href="#">4 star and above</a>
-            <a href="#">3 star and above</a>
-            <a href="#">2 star and above</a>
-            <a href="#">1 star and above</a>
-        </div>
-    </li>
-    <li class="drop-down-item" id="item4">
-        <a href="#item4" class="drop-down-btn">something name</a>
-        <div class="drop-down-submenu">
-
-        </div>
-    </li>
-     <li class="drop-down-item" id="item13">
-        <a href="#item13" class="drop-down-btn">CATEGORY</a>
-        <div class="drop-down-submenu">
-            <a href="#">Hair</a>
-            <a href="#">Skin</a>
-            <a href="#">Men's Store</a>
-            <a href="#">Make up</a>
-            <a href="#">Personal Care</a>
-        </div>
-    </li>
-     <li class="drop-down-item" id="item12">
-        <a href="#item12" class="drop-down-btn">AVG Customer Rating</a>
-        <div class="drop-down-submenu">
-            <a href="#">4 star and above</a>
-            <a href="#">3 star and above</a>
-            <a href="#">2 star and above</a>
-            <a href="#">1 star and above</a>
-        </div>
-    </li>
-     <li class="drop-down-item" id="item10">
-        <a href="#item10" class="drop-down-btn">something name</a>
-        <div class="drop-down-submenu">
-
-        </div>
-    </li>
-     <li class="drop-down-item" id="item11">
-        <a href="#item11" class="drop-down-btn">something name</a>
-        <div class="drop-down-submenu">
-
-        </div>
-    </li>
-</div>
-<!-- drop down hide and show end-->
-
-
-*/
