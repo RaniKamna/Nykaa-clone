@@ -73,9 +73,9 @@ function discount_30() {
     let p_code = document.getElementById("code").value;
 
     if (p_code === "masai30") {
-        p_b_discount.innerText = `₹${total* 0.3}`
-        p_s_total.innerText = `₹${0.7 * total}`
-        p_g_total.innerText = `₹${0.7 * total}`
+        p_b_discount.innerText = `₹${(total* 0.3).toFixed(3)}`
+        p_s_total.innerText = `₹${(total* 0.7).toFixed(3)}`
+        p_g_total.innerText = `₹${(total* 0.7).toFixed(3)}`
     }
     
     
