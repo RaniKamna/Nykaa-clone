@@ -1,7 +1,7 @@
 * {
     /* border: 1px solid red; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 
 #main {
     display: grid;
-    grid-template-columns: 65% 30%;
-    grid-gap: 5%;
+    grid-template-columns: 59% 35%;
+    grid-gap: 1%;
 }
 
 #cart_item>div {
@@ -34,7 +34,7 @@ body {
     width: 30%;
     margin-left: -1 rem;
     margin-right: 20px;
-    
+
 }
 
 
@@ -43,7 +43,7 @@ body {
     border: 1px solid rgb(223, 219, 219);
     display: flex;
     flex-direction: row;
-    
+
 }
 
 #cart_item>div:hover {
@@ -59,35 +59,106 @@ img {
 
 #cart_head {
     text-align: center;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 40px;
+
 }
 
 
 #price_head {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 40px;
+    font-weight: bolder;
+    margin-top: 1rem;
+
 }
 
 #total_d {
     /* text-align: center; */
-    border: 1px solid blue;
-  
-  
+    /* border: 1px solid blue; */
+    border-bottom: 1px solid rgb(211, 207, 207);
+    margin: 1rem 0;
+}
+
+#total_d div {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#coupon-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 207, 207);
+
 }
 
 #code {
-    width: 30%;
-    text-align: left;
-  
-    
-    
+    width: 70%;
+    margin-right: 0.7rem;
+    border: 1px solid #fc2779;
+    border-radius: 2px;
+    height: 1.5rem;
+
+}
+
+#code::placeholder {
+    color: rgb(194, 192, 192);
+
+}
+
+#price_detail{
+    background-color:white;
+    height:100vh;
+}
+
+#nyka-add-30 img {
+    height: 100px;
+}
+
+#price_detail button {
+    color: #fc2779;
+    border: 1px solid #fc2779;
+    border-radius: 2px;
+}
+
+#price_detail button:hover {
+    background-color: #fc2779;
+    color: white;
+
 }
 
 #checkOut {
-    margin-left: 120px;
-    
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#checkOut:hover a {
+    background-color: #fc2779;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+
+#checkOut a {
+    text-decoration: none;
+    color: #fc2779;
+
+}
+
+#total_d p {
+    margin: 1.5rem;
+}
+
+#g_total_div {
+    border-top: 1px solid rgb(211, 207, 207);
+    ;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#cart_div {
+    margin-top: 25px;
 }
