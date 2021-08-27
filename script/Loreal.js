@@ -152,6 +152,7 @@ function showProducts() {
         div.append(image, p_name, p_price, p_rating, btn);
 
         data_div.append(div)
+        // document.body.append(data_div)
         console.log(data_div);
 
         count++;
