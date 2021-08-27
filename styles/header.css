@@ -209,18 +209,18 @@ ul .headernav {
     border-radius: 4px;
 }
 
-.srchtxt {
-    padding-left: 35px;
-    align-items: center;
-    width: 100%;
-}
-
+/* Search Box CSS added here */
 .srchre {
     outline: none;
     border: none;
+    padding-left: 35px;
     background: #f4f4f4;
     width: 100%;
 }
+.srchre::placeholder { 
+    color: gray;
+    opacity: 1; 
+  }
 
 button,
 input {
