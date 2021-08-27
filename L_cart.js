@@ -72,7 +72,7 @@ total_div.append(div_b_total,div_b_discount,div_s_total,shiping_div, g_total_div
 function discount_30() {
     let p_code = document.getElementById("code").value;
 
-    if (p_code === "masai30") {
+    if (p_code === "nykaa30") {
         p_b_discount.innerText = `₹${total* 0.3}`
         p_s_total.innerText = `₹${0.7 * total}`
         p_g_total.innerText = `₹${0.7 * total}`
