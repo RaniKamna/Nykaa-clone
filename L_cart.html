@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="L_cart.css">
 
 </head>
+
 <body>
     <div id="main">
         <div id="cart_div">
@@ -20,17 +22,42 @@
         <div id="price_detail">
             <div id="price_head">Price Detail</div>
 
-            <input type="text"  id="code" placeholder="Enter Your Promo Code here">
+            <input type="text" id="code" placeholder="Enter Your Promo Code here">
 
             <button onclick="discount_30()">Enter</button>
 
             <div id="total_d">
-                
+                <div id="div_b_total">
+                    <p>Bag Total</p>
+                    <p id="p_b_tota;"></p>
+                </div>
+
+                <div id="div_b_discount">
+                    <p>Bag Discount</p>
+                    <p id="p_b_discount"></p>
+                </div>
+
+                <div id="div_s_total">
+                    <p>Sub total</p>
+                    <p id="p_s_total"></p>
+                </div>
+
+                <div id="shiping_div">
+                    <p>Shipping Charges-</p>
+                    <p>Free</p>
+                </div>
+
+                <div id="g_total_div">
+                    <p>Grand Total</p>
+                    <p id="p_g_total"></p>
+                </div>
             </div>
+
             <button id="checkOut"><a style="font-size: 25px;" href="payment.html">Proceed ></a></button>
         </div>
 
 
         <script src="L_cart.js"></script>
 </body>
+
 </html>
