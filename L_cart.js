@@ -38,33 +38,44 @@ cart_data.forEach(function(product) {
 
 
 let total_div = document.getElementById('total_d');
-let total_price = document.createElement('p');
-total_price.innerText = `Bag Total- ₹${total}`
-total_div.append(total_price)
 
-// let p_code = document.getElementById("code").value;
+let div_b_total = document.getElementById('div_b_total');
+let p_b_total = document.getElementById('p_b_total');
+p_b_total.innerText = `₹${total}`
+div_b_total.append(p_b_total);
 
-let discount = document.createElement('p');
-discount.innerText = `Bag Discount- ₹${0}`
+let div_b_discount = document.getElementById('div_b_discount');
+let p_b_discount = document.getElementById('p_b_discount');
+p_b_discount.innerText = `₹${0}`
+div_b_discount.append(p_b_discount);
 
-let d_price =document.createElement('p');
-d_price.innerText = `Sub Total- ₹${total}`
+let div_s_total = document.getElementById('div_s_total');
+let p_s_total = document.getElementById('p_s_total');
+p_s_total.innerText = `₹${total}`
+div_s_total.append(p_s_total);
 
-let s_price =document.createElement('p');
-s_price.innerText = `Shipping Charge- FREE`
+let shiping_div = document.getElementById('shiping_div');
+let p_shipping = document.getElementById('p_shipping');
+p_shipping.innerText = `FREE`;
+shiping_div.append(p_shipping);
 
-let g_total =document.createElement('p');
-g_total.innerText = `Grand Total- ₹${total}`
+let g_total_div = document.getElementById('g_total_div');
+let p_g_total = document.getElementById('p_g_total');
+p_g_total.innerText = `₹${total}`
+g_total_div.append(p_g_total);
 
-total_div.append(discount,d_price,s_price,g_total)
+
+
+
+total_div.append(div_b_total,div_b_discount,div_s_total,shiping_div, g_total_div)
 
 function discount_30() {
     let p_code = document.getElementById("code").value;
 
     if (p_code === "masai30") {
-        discount.innerText = `Bag Discount- ₹${total* 0.3}`
-        d_price.innerText = `Sub Total- ₹${0.7 * total}`
-        g_total.innerText = `Grand Total- ₹${0.7 * total}`
+        p_b_discount.innerText = `₹${total* 0.3}`
+        p_s_total.innerText = `₹${0.7 * total}`
+        p_g_total.innerText = `₹${0.7 * total}`
     }
     
     
