@@ -367,7 +367,6 @@ button.acnbtn {
     min-width: 160px;
     background: #fff;
     border-radius: 3px;
-    z-index: 12;
     box-shadow: -1px -1px 10px 0 #a8a8a8;
     width: 225px;
 }
@@ -386,8 +385,8 @@ button.acnbtn {
     display: block;
     padding: 0 20px 0 5px;
     text-decoration: none;
-    height: 44px;
-    line-height: 44px;
+    height: 40px;
+    line-height: 40px;
     white-space: nowrap;
     color: #001325;
     opacity: 92%;
