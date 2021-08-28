@@ -17,6 +17,4 @@ function SubmitForm(event) {
     else {
         window.location.href = "payment.html";
     }
-
-    
 }
