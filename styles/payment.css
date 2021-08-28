@@ -324,17 +324,47 @@ label {
 }
 
 .newaddtext div{
-    width: 80%;
-    border: 1px solid red;
+    width: 100%;
+   
 }
 .newaddtext ul li {
     margin-bottom:15px;
     border-bottom: 1px solid rgb(231, 228, 228);
-    width: 80%;
+
 
     
 }
 .newaddtext ul{
     list-style: none;
+}
+.innerbox .inp{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(231, 228, 228);    
+    margin-bottom: 1rem;
+}
+
+.sub{
+    background-color:#fc2779 ;
+    height:3rem;
+    margin-top:1.5rem; 
+    color: white;
+}
+.sub a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hotpink{
+    color: #fc2779;
+    border-bottom: 2px solid #fc2779;
+}
+
+
+
+hr{
+    color: #8c8d94;
 }
 

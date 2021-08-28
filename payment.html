@@ -35,7 +35,7 @@
                                         <p id="useremail"></p>
                                     </div>
                                 </li>
-                                <li class="item ">
+                                <li class="item hotpink ">
                                     <div class="log">
                                         <h3>3 - PAYMENT</h3>
                                         <p id="useremail"></p>
@@ -56,7 +56,7 @@
             <div class="threerow">
                 <div class="newadd">
                     <div class="newaddtext">
-                        <p>New Address</p>
+                        <p>CHOOSE PAYMENT METHOD</p>
                         <div>
                             <ul>
                                 <li>Credit Card/Debit Card</li>
@@ -80,53 +80,31 @@
                 <div class="addcontent">
                     <div class="savedaddress">
                         <div class="innerbox">
-                            <div class="inerbxheading">New Address</div>
-                            <form>
-                                <div>
-                                    <div class="country">
-                                        <div class="inptbx">
-                                            <label>Select Country</label>
-                                            <input class="inputsamestyle" type="text" value="India">
-                                        </div>
-                                    </div>
-                                    <div class="inptbx namefield">
-                                        <div class="namebx">
-                                            <input class="inputsamestyle" type="text" name="name" id="username"
-                                                placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="number">
-                                        <div>+91</div>
-                                        <div>
-                                            <div>
-                                                <input type="text" placeholder="Phone Number" class="inputsamestyle">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="pincode">
-                                        <div>
-                                            <input type="text" placeholder="Postal Code" class="inputsamestyle">
-                                        </div>
-                                    </div>
-                                    <div class="adrressbox">
-                                        <fieldset class="addressfield">
-                                            <legend class="title">Address</legend>
-                                            <textarea class="textarea" rows="3"></textarea>
-                                        </fieldset>
-                                        <div class="error">This field is required</div>
-                                    </div>
-                                    <div></div>
-                                    <div class="checkdiv">
-                                        <label class="checkbox">
-                                            <input type="checkbox" value="on">
-                                            Use this as my default Shipping Address
-                                        </label>
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn">
-                                    <a href="payment.html"> SHIP TO THIS ADDRESS</a>
+
+                            <form action="">
+                                <label for="">Credit/Debit Card</label>
+                                <br><br>
+                                <hr>
+                                <label for="">Card Number</label>
+                                <input class="cardNum inp" type="text">
+                                <br>
+                                <label for="">Expiry</label>
+                                <br>
+                                <input class="expNum inp" type="text">
+                                <br>
+                                <input type="checkbox">
+                                <label for="">Save this card for Future</label>
+                                <br>
+                                <button class=" sub inp">
+                                    <a href="thankyou.html">PAY NOW</a>
                                 </button>
+
+
+
+
                             </form>
+
+
                         </div>
                     </div>
                 </div>
@@ -137,33 +115,28 @@
                     <div class="paymentdetails">
                         <div class="cartpaymentdetails">
                             <div class="tbl">
-                                <div class="name">Sub Total</div>
+                                <div class="name">Bag Total</div>
                                 <div class="value">
-                                    ₹
-                                    <span>1049</span>
+                                    0
                                 </div>
                             </div>
                             <div class="tbl">
-                                <div class="name">Shipping Charge</div>
-                                <div class="value green"><span>Free</span></div>
+                                <div class="name">Bag Discount</div>
+                                <div class="value ">0</div>
                             </div>
                             <div class="tbl">
-                                <div class="name green">Discount</div>
-                                <div class="value green">
-                                    - ₹<span>0</span>
-                                </div>
+                                <div class="name ">Sub Total</div>
+                                <div class="value ">0</div>
                             </div>
                             <div class="tbl">
-                                <div class="name">Use Reward Points (2000)</div>
-                                <div class="value"><button type="button" class="applybtn">APPLY</button>
-                                </div>
+                                <div class="name green">Shipping Charges</div>
+                                <div class="value green">FREE</div>
                             </div>
+
                         </div>
                         <div class="tbl total">
                             <div class="name">Grand Total</div>
-                            <div class="value">
-                                ₹<span style="padding-right: 10px;">1049</span>
-                            </div>
+                            <div class="value" style="padding-right: 10px;">0</div>
                         </div>
                         <div class="payment-details-tbl prl20 payment-reward-row"></div>
                     </div>
