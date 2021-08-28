@@ -33,13 +33,13 @@ function upiPayment(event) {
     </button>
 
 </form>`
-    
 
-  
+
+
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
-    innerbox.innerHTML += upi_form ;
-    
+    innerbox.innerHTML += upi_form;
+
     console.log("yes");
 }
 function GayPayment(event) {
@@ -59,12 +59,47 @@ function GayPayment(event) {
     </button>
 
 </form>`
-    
 
-  
+
+
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
-    innerbox.innerHTML += Gpay_form ;
+    innerbox.innerHTML += Gpay_form;
+
+    console.log("yes");
+}
+
+
+function MobWallet_pay(event) {
+    event.preventDefault();
+
+    let innerbox = document.querySelector('.innerbox');
+
+    let wallet_form = `<form>
     
+    <label for="">Mobile Wallets</label>
+    <br><br>
+    <input class="cardNum inp" type="text" placeholder="Paytm">
+    <br>
+    
+    <div style="display: flex;">
+    <div style="display: flex; align-items: center;">
+    <img src="https://www.nykaa.com/assets/desktop/images/checkout/pay-tm-payment.png
+    ">
+    </div>
+    <button class=" sub inp">
+        <a href="thankyou.html">Connect Paytm Wallet</a>
+    </button>
+
+    </div>
+
+</form>`
+
+
+
+    // innerbox.remove(Credit_form);
+    innerbox.innerHTML = null;
+    innerbox.innerHTML += wallet_form;
+
     console.log("yes");
 }
