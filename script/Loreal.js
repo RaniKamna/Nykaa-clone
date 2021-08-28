@@ -119,6 +119,8 @@ localStorage.setItem("Loreal_store", JSON.stringify(Loreal_products))
 
 let Loreal_store = JSON.parse(localStorage.getItem("Loreal_store"));
 console.log(Loreal_store);
+
+
 let data_div = document.querySelector("#data")
 let count = 1;
 
@@ -152,7 +154,7 @@ function showProducts() {
         div.append(image, p_name, p_price, p_rating, btn);
 
         data_div.append(div)
-        // document.body.append(data_div)
+        
         console.log(data_div);
 
         count++;
