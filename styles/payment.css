@@ -79,7 +79,13 @@ body {
     position: relative;
     vertical-align: middle;
     width: 190px;
+   
 }
+.payment_tab{
+    border-bottom: 2px solid deeppink;
+    color: deeppink;
+}
+
 h3 {
     margin-bottom: 0;
 }

@@ -228,7 +228,7 @@ label {
     padding-bottom: 15px;
 }
 
-.btn {
+.btn   {
     background-color: #fc2779;
     color: #fff;
     height: 50px;
@@ -238,6 +238,22 @@ label {
     letter-spacing: 1.8px;
     width: 100%;
 }
+
+
+.btn a{
+    color: #fff;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+
+}
+
+
+.address_tab{
+    border-bottom: 2px solid deeppink;
+    color: deeppink;
+}
+
+
 
 .rightmostbox {
     width: 25%;
