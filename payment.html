@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adress</title>
+    <title>Payment</title>
     <link rel="stylesheet" href="styles/payment.css">
 </head>
 
@@ -59,29 +59,41 @@
                         <p>CHOOSE PAYMENT METHOD</p>
                         <div>
                             <ul>
-                                <li>Credit Card/Debit Card</li>
+                                
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Credit Card/Debit Card</button>
+                                </li>
 
-                                <li>UPI</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="upiPayment(event)">UPI</button>
+                                </li>
 
-                                <li>GooglePay</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="GayPayment(event)">GooglePay</button>
+                                </li>
+                               
 
-                                <li>Net Banking</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Net Banking</button>
+                                </li>
+                                
 
-                                <li>Mobile Wallet</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Mobile Wallet</button>
+                                </li>
+                               
 
-                                <li>Cash on Delivery</li>
-                                <li>Gift Card</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Cash on Delivery</button>
+                                </li>
+                                
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Gift Card</button>
+                                </li>
+                                
                             </ul>
 
                         </div>
-
                     </div>
                 </div>
                 <div class="addcontent">
                     <div class="savedaddress">
                         <div class="innerbox">
 
-                            <form action="">
+                            <form id="Credit_form">
                                 <label for="">Credit/Debit Card</label>
                                 <br><br>
                                 <hr>
@@ -98,8 +110,6 @@
                                 <button class=" sub inp">
                                     <a href="thankyou.html">PAY NOW</a>
                                 </button>
-
-
 
 
                             </form>
@@ -154,3 +164,17 @@
 </body>
 
 </html>
+
+
+
+<!-- <form>
+    
+    <label for="">BHIM UPI</label>
+    <input class="cardNum inp" type="number">
+    <br>
+   
+    <button class=" sub inp">
+        <a href="thankyou.html">PAY NOW</a>
+    </button>
+
+</form> -->

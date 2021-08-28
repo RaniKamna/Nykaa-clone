@@ -5,18 +5,66 @@ totalshow.innerText = total1[0];
 gtotalshow.innerText = total1[0];
 
 var items = document.querySelector('.righthead')
-items.innerText = total1[5]+'   '+'Items in your Bag'
+items.innerText = total1[5] + '   ' + 'Items in your Bag'
 console.log(total1[5])
 
-function SubmitForm(event) {
+
+
+
+
+// let innerbox = document.querySelector('.innerbox');
+// let Credit_form = document.getElementById('Credit_form');
+
+function upiPayment(event) {
+    // event.preventDefault();
+
+    let innerbox = document.querySelector('.innerbox');
+    // let Credit_form = document.getElementById('Credit_form');
+
+    let upi_form = `<form>
+    
+    <label for="">BHIM UPI</label>
+    <br><br>
+    <input class="cardNum inp" type="text" placeholder="(VPA / UPI ID eg. 9545166818@ybl)">
+    <br>
+   
+    <button class=" sub inp">
+        <a href="thankyou.html">PAY NOW</a>
+    </button>
+
+</form>`
+    
+
+  
+    // innerbox.remove(Credit_form);
+    innerbox.innerHTML = null;
+    innerbox.innerHTML += upi_form ;
+    
+    console.log("yes");
+}
+function GayPayment(event) {
     event.preventDefault();
 
-    let address = document.querySelector('.textarea').value;
+    let innerbox = document.querySelector('.innerbox');
 
-    if (!address) {
-        alert("Please Enter Your Address Detail");
-    }
-    else {
-        window.location.href = "payment.html";
-    }
+    let Gpay_form = `<form>
+    
+    <label for="">Google Pay</label>
+    <br><br>
+    <input class="cardNum inp" type="text" placeholder="(Enter Mobile No. / UPI ID)">
+    <br>
+   
+    <button class=" sub inp">
+        <a href="thankyou.html">PAY NOW</a>
+    </button>
+
+</form>`
+    
+
+  
+    // innerbox.remove(Credit_form);
+    innerbox.innerHTML = null;
+    innerbox.innerHTML += Gpay_form ;
+    
+    console.log("yes");
 }
