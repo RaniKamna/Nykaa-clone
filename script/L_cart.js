@@ -8,6 +8,7 @@ let main_div = document.getElementById("main");
 let cart_item = document.getElementById("cart_item");
 let price_det = document.getElementById('price_detail')
 
+let count = 0;
 cart_data.forEach(function(product) {
     let div = document.createElement('div');
 
@@ -34,8 +35,10 @@ cart_data.forEach(function(product) {
     cart_item.append(div);
 
     total = total + Number(product.price);
-});
 
+    count++;
+});
+console.log(count);
 
 let total_div = document.getElementById('total_d');
 
@@ -87,7 +90,7 @@ function discount_30() {
     console.log(p_code);
 }
 
-let price_detail = [T, D, S_T, S, G_T]
+let price_detail = [T, D, S_T, S, G_T,count]
 console.log(price_detail);
 
 localStorage.setItem("Price_Detail", JSON.stringify(price_detail))
