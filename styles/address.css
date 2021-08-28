@@ -211,6 +211,7 @@ label {
     border: none;
     resize: none;
     width: 100%;
+    outline: none;
 }
 
 .error {

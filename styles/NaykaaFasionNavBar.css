@@ -15,9 +15,9 @@
   text-align: start;
   align-items: center;
 }
-#brand-main-flex-box >.even{
+#brand-main-contanar-text > #brand-main-flex-box >.even{
  
-  background-color: rgb(150, 144, 144);
+  background-color: rgb(116, 30, 30);
   
 }
 

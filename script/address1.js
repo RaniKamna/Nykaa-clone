@@ -3,8 +3,10 @@ let totalshow = document.getElementById('totalamount')
 let gtotalshow = document.getElementById('gtotal')
 totalshow.innerText = total1[0];
 gtotalshow.innerText = total1[0];
-console.log(gtotalshow)
 
+var items = document.querySelector('.righthead')
+items.innerText = total1[5]+'   '+'Items in your Bag'
+console.log(total1[5])
 
 function SubmitForm(event) {
     event.preventDefault();
