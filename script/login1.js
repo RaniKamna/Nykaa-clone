@@ -5,9 +5,9 @@ window.addEventListener('load', () => {
 
 function login() {
     event.preventDefault()
-    var formdet = document.getElementById('form')
-    var formdata = new FormData(form)
-    var number = formdata.get('Number')
+    var formdet = document.getElementById('form');
+    var formdata = new FormData(form);
+    var number = formdata.get('Number');
 
     var log = {
         numb: number

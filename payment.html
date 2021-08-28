@@ -5,90 +5,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment page</title>
+    <title>Adress</title>
     <link rel="stylesheet" href="styles/payment.css">
 </head>
 
 <body>
-    <!-- Navbar starts here -->
-
-    <div class="topdiv">
-        <div class="container">
-            <div class="threepart">
-                <div class="logopart">
-                    <div class="line">
-                        <img src="image/nykalogo.jpg" alt="logo" style="width: 100px; height: 30;">
+    <div>
+        <div class="topdiv">
+            <div class="container">
+                <div class="threepart">
+                    <div class="logopart">
+                        <div class="line">
+                            <img src="image/nykalogo.jpg" alt="logo" style="width: 100px; height: 30;">
+                        </div>
                     </div>
-                </div>
-                <div class="addresssec">
-                    <div class="divs">
-                        <ul class="logadpay">
-                            <li class="item">
-                                <div class="log">
+                    <div class="addresssec">
+                        <div class="divs">
+                            <ul class="logadpay">
+                                <li class="item">
                                     <h3>1 - LOGIN</h3>
                                     <p id="useremail"></p>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div class="log">
-                                    <h3>2 - ADDRESS</h3>
-                                    <p id="useremail"></p>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div class="log">
-                                    <h3>3 - PAYMENT</h3>
-                                    <p id="useremail"></p>
-                                </div>
-                            </li>
-                        </ul>
+                                    <div class="log">
+
+                                    </div>
+                                </li>
+                                <li class="item ">
+                                    <div class="log">
+                                        <h3>2 - ADDRESS</h3>
+                                        <p id="useremail"></p>
+                                    </div>
+                                </li>
+                                <li class="item hotpink ">
+                                    <div class="log">
+                                        <h3>3 - PAYMENT</h3>
+                                        <p id="useremail"></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="container middiv">
+            <div class="coivdrow">
+                <div class="covidmsg">
+                    <p>Due to COVID, delivery may take longer than usual</p>
+                </div>
+            </div>
+            <div class="threerow">
+                <div class="newadd">
+                    <div class="newaddtext">
+                        <p>CHOOSE PAYMENT METHOD</p>
+                        <div>
+                            <ul>
+                                <li>Credit Card/Debit Card</li>
+
+                                <li>UPI</li>
+
+                                <li>GooglePay</li>
+
+                                <li>Net Banking</li>
+
+                                <li>Mobile Wallet</li>
+
+                                <li>Cash on Delivery</li>
+                                <li>Gift Card</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="addcontent">
+                    <div class="savedaddress">
+                        <div class="innerbox">
+
+                            <form action="">
+                                <label for="">Credit/Debit Card</label>
+                                <br><br>
+                                <hr>
+                                <label for="">Card Number</label>
+                                <input class="cardNum inp" type="text">
+                                <br>
+                                <label for="">Expiry</label>
+                                <br>
+                                <input class="expNum inp" type="text">
+                                <br>
+                                <input type="checkbox">
+                                <label for="">Save this card for Future</label>
+                                <br>
+                                <button class=" sub inp">
+                                    <a href="thankyou.html">PAY NOW</a>
+                                </button>
 
 
-    <!-- Navbar ends here -->
 
 
-    <!-- Payment Details Content Start -->
+                            </form>
 
-    <div>
-        <h3>CHOOSE PAYMENT METHOD</h3>
 
-    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightmostbox">
+                    <div class="shadow">
+                        <div class="righthead">1 Items in your Bag Edit</div>
+                    </div>
+                    <div class="paymentdetails">
+                        <div class="cartpaymentdetails">
+                            <div class="tbl">
+                                <div class="name">Bag Total</div>
+                                <div class="value">
+                                    0
+                                </div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name">Bag Discount</div>
+                                <div class="value ">0</div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name ">Sub Total</div>
+                                <div class="value ">0</div>
+                            </div>
+                            <div class="tbl">
+                                <div class="name green">Shipping Charges</div>
+                                <div class="value green">FREE</div>
+                            </div>
 
-    <div id="pay_cont">
-        <div>
-            <div>Credit/Debit</div>
-            <div>UPI</div>
-            <div>GooglePay</div>
-            <div>Net Banking</div>
-            <div>Mobile Wallets</div>
-            <div>Cash in Delivery</div>
-            <div>Gift Card</div>
+                        </div>
+                        <div class="tbl total">
+                            <div class="name">Grand Total</div>
+                            <div class="value" style="padding-right: 10px;">0</div>
+                        </div>
+                        <div class="payment-details-tbl prl20 payment-reward-row"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <form action="">
-                <label for="">Credit/Debit Card</label>
-                <br>
-                <input type="text" placeholder="Card Number"><br>
-                <input type="date">
-                <br>
-                <input value="Submit" type="submit">
-            </form>
-        </div>
-        <div>
-            sdasdsadasd
-        </div>
+        <div class="lastdiv"></div>
     </div>
-
-
-
-    <!-- Payment Details Content End -->
-
-
+    <script src="script/address.js"></script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adress</title>
     <link rel="stylesheet" href="styles/address.css">
 </head>
 
@@ -16,7 +16,7 @@
                 <div class="threepart">
                     <div class="logopart">
                         <div class="line">
-                            <img src="images/nykalogo.jpg" alt="logo" style="width: 100px; height: 30;">
+                            <img src="image/nykalogo.jpg" alt="logo" style="width: 100px; height: 30;">
                         </div>
                     </div>
                     <div class="addresssec">
@@ -29,13 +29,13 @@
 
                                     </div>
                                 </li>
-                                <li class="item">
+                                <li class="item ">
                                     <div class="log">
                                         <h3>2 - ADDRESS</h3>
                                         <p id="useremail"></p>
                                     </div>
                                 </li>
-                                <li class="item">
+                                <li class="item ">
                                     <div class="log">
                                         <h3>3 - PAYMENT</h3>
                                         <p id="useremail"></p>
@@ -63,7 +63,7 @@
                     <div class="savedaddress">
                         <div class="innerbox">
                             <div class="inerbxheading">New Address</div>
-                            <form>
+                            <form id="form">
                                 <div>
                                     <div class="country">
                                         <div class="inptbx">
@@ -73,7 +73,7 @@
                                     </div>
                                     <div class="inptbx namefield">
                                         <div class="namebx">
-                                            <input class="inputsamestyle" type="text" name="name" id="username"
+                                            <input class="inputsamestyle" name="name" type="text" name="name" id="username"
                                                 placeholder="Name">
                                         </div>
                                     </div>
@@ -81,19 +81,19 @@
                                         <div>+91</div>
                                         <div>
                                             <div>
-                                                <input type="text" placeholder="Phone Number" class="inputsamestyle">
+                                                <input type="number" name="number" placeholder="Phone Number" class="inputsamestyle">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="pincode">
                                         <div>
-                                            <input type="text" placeholder="Postal Code" class="inputsamestyle">
+                                            <input type="number" name="pincode" placeholder="Postal Code" class="inputsamestyle">
                                         </div>
                                     </div>
                                     <div class="adrressbox">
                                         <fieldset class="addressfield">
                                             <legend class="title">Address</legend>
-                                            <textarea class="textarea" rows="3"></textarea>
+                                            <textarea class="textarea" rows="3" id="adressbox"></textarea>
                                         </fieldset>
                                         <div class="error">This field is required</div>
                                     </div>
@@ -105,8 +105,8 @@
                                         </label>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn">
-                                    SHIP TO THIS ADDRESS
+                                <button type="submit" class="btn" id="btnconfirm">
+                                    SHIPPING TO THIS ADDRESS
                                 </button>
                             </form>
                         </div>
@@ -121,8 +121,7 @@
                             <div class="tbl">
                                 <div class="name">Sub Total</div>
                                 <div class="value">
-                                    ₹
-                                    <span>1049</span>
+                                    <span id="totalamount">1049</span>
                                 </div>
                             </div>
                             <div class="tbl">
@@ -144,7 +143,7 @@
                         <div class="tbl total">
                             <div class="name">Grand Total</div>
                             <div class="value">
-                                ₹<span style="padding-right: 10px;">1049</span>
+                                <span style="padding-right: 10px;" id="gtotal">1049</span>
                             </div>
                         </div>
                         <div class="payment-details-tbl prl20 payment-reward-row"></div>
@@ -155,6 +154,7 @@
         <div class="lastdiv"></div>
     </div>
     <script src="script/address.js"></script>
+    <script src="script/address1.js"></script>
 </body>
 
 </html>

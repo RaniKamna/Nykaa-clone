@@ -52,6 +52,7 @@ body {
 .line {
     border-right: 1px solid #ebebeb;
     margin: 8px 0;
+    height: 64px;
 }
 
 .addresssec {
@@ -194,7 +195,7 @@ label {
 }
 
 .addressfield {
-    border: 1px solid #ebebeb;
+    border: 1px solid #695c5c;
     border-radius: 2px;
 }
 
@@ -210,6 +211,7 @@ label {
     border: none;
     resize: none;
     width: 100%;
+    outline: none;
 }
 
 .error {
@@ -228,7 +230,7 @@ label {
     padding-bottom: 15px;
 }
 
-.btn {
+.btn   {
     background-color: #fc2779;
     color: #fff;
     height: 50px;
@@ -238,6 +240,13 @@ label {
     letter-spacing: 1.8px;
     width: 100%;
 }
+
+
+
+
+
+
+
 
 .rightmostbox {
     width: 25%;

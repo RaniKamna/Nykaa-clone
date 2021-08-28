@@ -1,6 +1,6 @@
 var username = JSON.parse(localStorage.getItem('userdetail'))
-let l = username.length-1
-let n = (username[l].name)
+let l = username.length-1;
+let n = (username[l].name);
 
 
 var acname = document.getElementById('username')
@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
 function logsection(){
     var status = 'Account'
     if(status == 'Account'){
-        acname.innerText = status
+        acname.innerText = status;
     }else{
         acname.innerText = n;
     }
