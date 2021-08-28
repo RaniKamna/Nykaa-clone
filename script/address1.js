@@ -5,7 +5,6 @@ totalshow.innerText = total1[0];
 gtotalshow.innerText = total1[0];
 console.log(gtotalshow)
 
-
 function SubmitForm(event) {
     event.preventDefault();
 
