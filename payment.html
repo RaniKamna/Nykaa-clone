@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adress</title>
+    <title>Payment</title>
     <link rel="stylesheet" href="styles/payment.css">
 </head>
 
@@ -59,32 +59,45 @@
                         <p>CHOOSE PAYMENT METHOD</p>
                         <div>
                             <ul>
-                                <li>Credit Card/Debit Card</li>
+                                
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Credit Card/Debit Card</button>
+                                </li>
 
-                                <li>UPI</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="upiPayment(event)">UPI</button>
+                                </li>
 
-                                <li>GooglePay</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="GayPayment(event)">GooglePay</button>
+                                </li>
+                               
 
-                                <li>Net Banking</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="MobWallet_pay(event)">Mobile Wallet</button>
+                                </li>
+                                
 
-                                <li>Mobile Wallet</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Net Banking</button>
+                                </li>
+                               
 
-                                <li>Cash on Delivery</li>
-                                <li>Gift Card</li>
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Cash on Delivery</button>
+                                </li>
+                                
+                                <li><button style="border: none; background: none; color: gray;" onclick="">Gift Card</button>
+                                </li>
+
+                                
                             </ul>
 
                         </div>
-
                     </div>
                 </div>
                 <div class="addcontent">
                     <div class="savedaddress">
                         <div class="innerbox">
 
-                            <form action="">
+                            <form id="Credit_form">
                                 <label for="">Credit/Debit Card</label>
-                                <br><br>
-                                <hr>
+                                <br><br><br>
+                                
                                 <label for="">Card Number</label>
                                 <input class="cardNum inp" type="text">
                                 <br>
@@ -95,12 +108,10 @@
                                 <input type="checkbox">
                                 <label for="">Save this card for Future</label>
                                 <br>
-                                <button class=" sub inp">
-                                    <a href="thankyou.html">PAY NOW</a>
+                                <button class=" sub inp" onclick= "paymentNote()">
+                                    <a href="index.html">PAY NOW</a>
                                 </button>
-
-
-
+        
 
                             </form>
 
@@ -115,43 +126,53 @@
                     <div class="paymentdetails">
                         <div class="cartpaymentdetails">
                             <div class="tbl">
-                                <div class="name">Bag Total</div>
-                                <div class="value">0</div>
+                                <div class="name">Sub Total</div>
+                                <div class="value">
+                                    <span id="totalamount">1049</span>
+                                </div>
                             </div>
                             <div class="tbl">
-                                <div class="name">Bag Discount</div>
-                                <div class="value ">0</div>
+                                <div class="name">Shipping Charge</div>
+                                <div class="value green"><span>Free</span></div>
                             </div>
                             <div class="tbl">
-                                <div class="name ">Sub Total</div>
-                                <div class="value ">0</div>
+                                <div class="name green">Discount</div>
+                                <div class="value green">
+                                    - ₹<span>0</span>
+                                </div>
                             </div>
                             <div class="tbl">
-                                <div class="name green">Shipping Charges</div>
-                                <div class="value green">FREE</div>
+                                <div class="name">Use Reward Points (2000)</div>
+                                <div class="value"><button type="button" class="applybtn">APPLY</button>
+                                </div>
                             </div>
-
                         </div>
                         <div class="tbl total">
                             <div class="name">Grand Total</div>
-                            <div class="value" style="padding-right: 10px;">0</div>
+                            <div class="value">
+                                <span style="padding-right: 10px;" id="gtotal">1049</span>
+                            </div>
                         </div>
-
-
-
                         <div class="payment-details-tbl prl20 payment-reward-row"></div>
                     </div>
-                    <!-- address div from local storage -->
-                    <div class="tbl">
 
+                    <div id="payment_address">
+                        <div id="S_address">
+                            
+                        </div>
                     </div>
-                    <!-- address div from local storage -->
+
                 </div>
             </div>
         </div>
         <div class="lastdiv"></div>
     </div>
-    <script src="script/address.js"></script>
+    <!-- <script src="script/address.js"></script> -->
+    <script src="script/payment.js"></script>
 </body>
 
 </html>
+
+
+
+<div style=" box-shadow: 1; padding: 1rem;"></div>
