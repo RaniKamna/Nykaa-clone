@@ -17,7 +17,7 @@ body {
 
 .headr1 {
     background: #fff;
-    position: fixed;
+    /* position: sticky; */
     box-shadow: 0 2px 3px 0 rgb(0 0 0 /10%);
     width: 100%;
 }
