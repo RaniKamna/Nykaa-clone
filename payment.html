@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adress</title>
-    <link rel="stylesheet" href="styles/address.css">
+    <link rel="stylesheet" href="styles/payment.css">
 </head>
 
 <body>
@@ -57,12 +57,76 @@
                 <div class="newadd">
                     <div class="newaddtext">
                         <p>New Address</p>
+                        <div>
+                            <ul>
+                                <li>Credit Card/Debit Card</li>
+
+                                <li>UPI</li>
+
+                                <li>GooglePay</li>
+
+                                <li>Net Banking</li>
+
+                                <li>Mobile Wallet</li>
+
+                                <li>Cash on Delivery</li>
+                                <li>Gift Card</li>
+                            </ul>
+
+                        </div>
+
                     </div>
                 </div>
                 <div class="addcontent">
                     <div class="savedaddress">
                         <div class="innerbox">
-                            sasas
+                            <div class="inerbxheading">New Address</div>
+                            <form>
+                                <div>
+                                    <div class="country">
+                                        <div class="inptbx">
+                                            <label>Select Country</label>
+                                            <input class="inputsamestyle" type="text" value="India">
+                                        </div>
+                                    </div>
+                                    <div class="inptbx namefield">
+                                        <div class="namebx">
+                                            <input class="inputsamestyle" type="text" name="name" id="username"
+                                                placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="number">
+                                        <div>+91</div>
+                                        <div>
+                                            <div>
+                                                <input type="text" placeholder="Phone Number" class="inputsamestyle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pincode">
+                                        <div>
+                                            <input type="text" placeholder="Postal Code" class="inputsamestyle">
+                                        </div>
+                                    </div>
+                                    <div class="adrressbox">
+                                        <fieldset class="addressfield">
+                                            <legend class="title">Address</legend>
+                                            <textarea class="textarea" rows="3"></textarea>
+                                        </fieldset>
+                                        <div class="error">This field is required</div>
+                                    </div>
+                                    <div></div>
+                                    <div class="checkdiv">
+                                        <label class="checkbox">
+                                            <input type="checkbox" value="on">
+                                            Use this as my default Shipping Address
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">
+                                    <a href="payment.html"> SHIP TO THIS ADDRESS</a>
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
