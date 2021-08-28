@@ -52,6 +52,7 @@ body {
 .line {
     border-right: 1px solid #ebebeb;
     margin: 8px 0;
+    height: 64px;
 }
 
 .addresssec {
