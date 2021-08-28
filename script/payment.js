@@ -11,7 +11,6 @@ console.log(total1[5])
 
 
 
-
 // let innerbox = document.querySelector('.innerbox');
 // let Credit_form = document.getElementById('Credit_form');
 
@@ -105,3 +104,24 @@ function MobWallet_pay(event) {
 }
 
 
+let S_address = document.getElementById('S_address');
+let add_detail = JSON.parse(localStorage.getItem("addressdetail"))
+console.log(add_detail);
+
+let shipping_add = `<div style=" box-shadow:0px 0px 4px grey;
+; padding: 1rem;">
+<h3>SHIPPING ADDRESS</h3>
+<p>${add_detail[0].uname}</p>
+<p>${add_detail[0].add} -${add_detail[0].pinc}</p>
+<p> india</p>
+<p>+91${add_detail[0].numb}</p>
+
+</div>`
+
+S_address.innerHTML += shipping_add;
+
+
+
+function paymentNote() {
+    alert ("Your Payment is Successfull ,Thank you for shopping with us")
+}
