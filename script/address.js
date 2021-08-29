@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
     button.addEventListener('click', confirmpayment)
 })
 
-function confirmpayment() {
+function confirmpayment(event) {
     event.preventDefault()
     var formdet = document.getElementById('form');
     var formdata = new FormData(form);
