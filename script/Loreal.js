@@ -1,6 +1,3 @@
-
-
-
 const Loreal_products = [
     {
         name: "L'Oreal Paris Hydrated, Plump & Radiant Skin Kit",
@@ -116,19 +113,13 @@ const Loreal_products = [
 
 localStorage.setItem("Loreal_store", JSON.stringify(Loreal_products))
 
-
 let Loreal_store = JSON.parse(localStorage.getItem("Loreal_store"));
-console.log(Loreal_store);
-
-
 let data_div = document.querySelector("#data")
 let count = 1;
 
 function showProducts() {
-
     Loreal_store.forEach(function (product) {
         let div = document.createElement('div');
-
 
         let p_name = document.createElement('p');
         p_name.innerText = product.name
@@ -150,19 +141,11 @@ function showProducts() {
             addTocart(product);
         }
 
-
         div.append(image, p_name, p_price, p_rating, btn);
-
         data_div.append(div)
-        
-        console.log(data_div);
-
         count++;
-
     });
 }
-
-
 showProducts();
 
 
@@ -171,13 +154,9 @@ if (localStorage.getItem("lorialCart") === null) {
 }
 
 function addTocart(p) {
-    //console.log(p);
-
     let cart_data = JSON.parse(localStorage.getItem("lorialCart"));
-    
     cart_data.push(p);
 
     localStorage.setItem("lorialCart", JSON.stringify(cart_data))
-
 }
 

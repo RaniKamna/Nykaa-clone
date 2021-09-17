@@ -1,9 +1,5 @@
-
-
 let cart_data = JSON.parse(localStorage.getItem("lorialCart"));
-
 var total = 0;
-
 let main_div = document.getElementById("main");
 let cart_item = document.getElementById("cart_item");
 let price_det = document.getElementById('price_detail')
@@ -38,10 +34,8 @@ cart_data.forEach(function(product) {
 
     count++;
 });
-console.log(count);
 
 let total_div = document.getElementById('total_d');
-
 let div_b_total = document.getElementById('div_b_total');
 let p_b_total = document.getElementById('p_b_total');
 p_b_total.innerText = `₹${total}`
@@ -72,9 +66,6 @@ p_g_total.innerText = `₹${total}`
 let G_T = p_g_total.innerText = `₹${total}`
 g_total_div.append(p_g_total);
 
-
-
-
 total_div.append(div_b_total,div_b_discount,div_s_total,shiping_div, g_total_div)
 
 function discount_30() {
@@ -85,14 +76,9 @@ function discount_30() {
         p_s_total.innerText = `₹${(total* 0.7).toFixed(3)}`
         p_g_total.innerText = `₹${(total* 0.7).toFixed(3)}`
     }
-    
-    
-    console.log(p_code);
 }
 
 let price_detail = [T, D, S_T, S, G_T,count]
-console.log(price_detail);
-
 localStorage.setItem("Price_Detail", JSON.stringify(price_detail))
 
 
