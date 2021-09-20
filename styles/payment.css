@@ -368,3 +368,20 @@ hr{
     color: #8c8d94;
 }
 
+
+/* adding inline style */
+
+.payment_btn{
+    border: none;
+    background: none; 
+    color: gray;
+}
+
+#gtotal{
+    padding-right: 10px;
+}
+
+#shodow_box{
+    box-shadow: 1; 
+    padding: 1rem;
+}

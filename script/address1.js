@@ -6,7 +6,3 @@ gtotalshow.innerText = total1[0];
 
 var items = document.querySelector('.righthead')
 items.innerText = total1[5]+'   '+'Items in your Bag'
-console.log(total1[5])
-
-
-

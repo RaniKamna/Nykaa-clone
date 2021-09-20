@@ -317,3 +317,9 @@ label {
     padding-bottom: 15px;
     padding-left: 10px;
 }
+
+/* inline style added */
+
+#gtotal{
+    padding-right: 10px;
+}

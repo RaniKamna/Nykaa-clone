@@ -6,17 +6,12 @@ gtotalshow.innerText = total1[0];
 
 var items = document.querySelector('.righthead')
 items.innerText = total1[5] + '   ' + 'Items in your Bag'
-console.log(total1[5])
-
-
-
 
 // let innerbox = document.querySelector('.innerbox');
 // let Credit_form = document.getElementById('Credit_form');
 
 function upiPayment(event) {
     // event.preventDefault();
-
     let innerbox = document.querySelector('.innerbox');
     // let Credit_form = document.getElementById('Credit_form');
 
@@ -33,19 +28,14 @@ function upiPayment(event) {
 
 </form>`
 
-
-
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += upi_form;
-
     console.log("yes");
 }
 function GayPayment(event) {
     event.preventDefault();
-
     let innerbox = document.querySelector('.innerbox');
-
     let Gpay_form = `<form>
     
     <label for="">Google Pay</label>
@@ -59,21 +49,15 @@ function GayPayment(event) {
 
 </form>`
 
-
-
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += Gpay_form;
-
     console.log("yes");
 }
 
-
 function MobWallet_pay(event) {
     event.preventDefault();
-
     let innerbox = document.querySelector('.innerbox');
-
     let wallet_form = `<form>
     
     <label for="">Mobile Wallets</label>
@@ -94,19 +78,15 @@ function MobWallet_pay(event) {
 
 </form>`
 
-
-
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += wallet_form;
-
     console.log("yes");
 }
 
 
 let S_address = document.getElementById('S_address');
 let add_detail = JSON.parse(localStorage.getItem("addressdetail"))
-console.log(add_detail);
 
 let shipping_add = `<div style=" box-shadow:0px 0px 4px grey;
 ; padding: 1rem;">
@@ -115,12 +95,9 @@ let shipping_add = `<div style=" box-shadow:0px 0px 4px grey;
 <p>${add_detail[0].add} -${add_detail[0].pinc}</p>
 <p> india</p>
 <p>+91${add_detail[0].numb}</p>
-
 </div>`
 
 S_address.innerHTML += shipping_add;
-
-
 
 function paymentNote() {
     alert ("Your Payment is Successfull ,Thank you for shopping with us")

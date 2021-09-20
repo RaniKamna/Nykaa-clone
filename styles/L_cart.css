@@ -108,9 +108,9 @@ img {
 
 }
 
-#price_detail{
-    background-color:white;
-    height:100vh;
+#price_detail {
+    background-color: white;
+    height: 100vh;
 }
 
 #nyka-add-30 img {
@@ -165,4 +165,21 @@ img {
 
 #cart_div {
     margin-top: 25px;
+}
+
+
+.p_apply_coupon {
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+
+
+.apply_btn {
+    height: 27px;
+    font-weight: bold;
+}
+
+.place_order_link{
+    font-size: 25px;
 }

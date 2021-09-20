@@ -1,7 +1,6 @@
 var number = JSON.parse(localStorage.getItem('usernumber'))
 let l = number.length-1;
 var n = number[l].numb;
-
 var show = document.getElementById('numr')
 show.innerText = n;
 
@@ -13,7 +12,6 @@ window.addEventListener('load', () => {
 function login(){
     event.preventDefault() 
     var formdata = new FormData(form)
-
     var nnme = formdata.get('name')
     var email = formdata.get('email')
 
