@@ -12,6 +12,7 @@
 4. Multiple payement options like upi, credit card, debit card
 5. Seperate address page and payement page are there.
 6. It has also inbuilt page of brand where you can explore brand wise product.
+
 # Technologies used:-
 1. HTML 
 2. CSS 
@@ -23,3 +24,10 @@
 3. Icons: [Font Awesome](https://fontawesome.com/)
 
 ## [Project Link](https://sanketnchaware.github.io/Nykaa_Project/)
+
+# Some Snapshots of Website:-
+![Screenshot (408)](https://user-images.githubusercontent.com/68117560/133995474-f8c726a4-0a58-4583-85cf-8ee9a6e7a1a8.png)
+
+![Screenshot (412)](https://user-images.githubusercontent.com/68117560/133996420-7da769e9-be82-402f-aa91-bb5bf5c09710.png)
+![Screenshot (411)](https://user-images.githubusercontent.com/68117560/133996426-bd87705e-05e9-4207-8696-15a54006b7f6.png)
+![Screenshot (409)](https://user-images.githubusercontent.com/68117560/133996427-a223e132-46cc-4cab-b638-d277dbf1ea15.png)
