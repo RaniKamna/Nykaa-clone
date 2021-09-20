@@ -18,7 +18,7 @@ function confirmpayment(event) {
     var number = formdata.get('number');
     var pincode = formdata.get('pincode');
     var addresss = document.querySelector('.textarea').value
-    console.log(addresss)
+    
 
     var paydet = {
         uname: username,

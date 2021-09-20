@@ -31,7 +31,7 @@ function upiPayment(event) {
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += upi_form;
-    console.log("yes");
+   
 }
 function GayPayment(event) {
     event.preventDefault();
@@ -52,7 +52,7 @@ function GayPayment(event) {
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += Gpay_form;
-    console.log("yes");
+    
 }
 
 function MobWallet_pay(event) {
@@ -81,7 +81,7 @@ function MobWallet_pay(event) {
     // innerbox.remove(Credit_form);
     innerbox.innerHTML = null;
     innerbox.innerHTML += wallet_form;
-    console.log("yes");
+    
 }
 
 
