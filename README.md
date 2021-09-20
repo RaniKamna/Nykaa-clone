@@ -12,6 +12,11 @@
 4. Multiple payement options like upi, credit card, debit card
 5. Seperate address page and payement page are there.
 6. It has also inbuilt page of brand where you can explore brand wise product.
+
+# Some Snapshots of Website:-
+![Screenshot (408)](https://user-images.githubusercontent.com/68117560/133995474-f8c726a4-0a58-4583-85cf-8ee9a6e7a1a8.png)
+
+
 # Technologies used:-
 1. HTML 
 2. CSS 
