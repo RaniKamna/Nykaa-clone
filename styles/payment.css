@@ -368,3 +368,12 @@ hr{
     color: #8c8d94;
 }
 
+
+/* adding inline style */
+
+.payment_btn{
+    border: none;
+    background: none; 
+    color: gray;
+}
+
