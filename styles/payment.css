@@ -377,3 +377,11 @@ hr{
     color: gray;
 }
 
+#gtotal{
+    padding-right: 10px;
+}
+
+#shodow_box{
+    box-shadow: 1; 
+    padding: 1rem;
+}
