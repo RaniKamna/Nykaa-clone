@@ -397,4 +397,18 @@ body {
     margin-top: 40%;
 }
 
+.p_style {
+      color: #fc2779;
+      font-size: 20px"
+
+    }
+
+ .p_size{
+    font-size: 25px;
+ }   
+
+ .poster_size{
+    width: 8%; 
+ }
+
 /* CSS for DISCOVER NOW  added above */
