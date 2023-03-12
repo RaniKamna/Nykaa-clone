@@ -23,7 +23,7 @@
 2. Fonts: [Google Fonts](https://fonts.google.com/)
 3. Icons: [Font Awesome](https://fontawesome.com/)
 
-## [Project Link](https://practical-darwin-19db9f.netlify.app/)
+## [Project Link](https://nykaa-clone-sigma.vercel.app/)
 
 # Some Snapshots of Website:-
 ![Screenshot (408)](https://user-images.githubusercontent.com/68117560/133995474-f8c726a4-0a58-4583-85cf-8ee9a6e7a1a8.png)
